@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #101010;
+}
+#logo{
+    color:aliceblue;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: green;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: green;
+    transition: all 0.5s;
+}
+#bth{
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+#bth:hover{
+    transform:scale(1.2)
+}
+#hero{
+    background-color: #101010;
+    height: 100vh;
+}
+#contactleft{
+    margin-top: 90px;
+    margin-left: 150px;
+    width: 500px;
+}
+#contactright{
+    margin-left: 700px;
+    position: absolute;
+    top: 180px;
+}
+#contactleft p{
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+}
+#contactleft p i{
+    color: green;
+    margin-right: 15px;
+    font-size: 25px;
+}
+#socialicon{
+    margin-top: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+#socialicon a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 25px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform; 
+}
+#socialicon a:hover{
+    color: green;
+    transform: translateY(-5px);
+}
+#btn{
+    display: inline-block;
+    background-color: green;
+    text-decoration: none;
+    width: 140px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 19px;
+    border: none;
+    margin-top: 40px;
+    letter-spacing: 2px;
+    transition: all 2s;
+}
+#btn:hover{
+    background-color: transparent;
+    border: 3px solid green ;
+    cursor: pointer;
+}
+#tittle{
+    font-size: 90px;
+    color: white;
+}
+span{
+    color: green;
+}
+#contactright form{
+    width: 90%;
+}
+form input, form textarea{
+    width: 90%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
